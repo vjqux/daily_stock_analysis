@@ -200,6 +200,7 @@ jobs:
           echo "  Telegram: $([ -n "$TELEGRAM_BOT_TOKEN" ] && echo '✅ 已配置' || echo '⚪ 未配置')"
           echo "  Discord: $([ -n "$DISCORD_WEBHOOK_URL" ] && echo '✅ 已配置' || echo '⚪ 未配置')"
           echo "  AstrBot: $([ -n "$ASTRBOT_URL" ] && echo '✅ 已配置' || echo '⚪ 未配置')"
+          echo "  Server酱: $([ -n "$SERVERCHAN3_SENDKEY" ] && echo '✅ 已配置' || echo '⚪ 未配置')"
           echo "=========================================="
           echo ""
           
